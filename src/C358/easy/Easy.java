@@ -5,6 +5,8 @@ import java.util.ArrayList;
 /**
  * https://www.reddit.com/r/dailyprogrammer/comments/8eger3/20180423_challenge_358_easy_decipher_the_seven/
  *
+ * For this challenge, you will receive 3 lines of input, with each line being 27 characters long (representing 9 total numbers), with the digits spread across the 3 lines. Your job is to return the represented digits. You don't need to account for odd spacing or missing segments.
+ *
  * @author Adrian
  * @since 29 Apr 2018
  */

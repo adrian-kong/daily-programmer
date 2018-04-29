@@ -6,6 +6,16 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 
 /**
+ * https://www.reddit.com/r/dailyprogrammer/comments/8fbqhw/20180427_challenge_358_hard_puzzle_me_this/
+ *
+ * As I am no designer the input will be purely numerical, feel free to make some visual version of the jigsaw puzzles :)
+ * You will first be given the dimension as X, Y
+ * Afterwards you will be given list of puzzle pieces and what type their 4 sides connect to (given as up, right, down, left)
+ * Their side-connection is given as a number, They connect with their negated number
+ * this means that a 1 and -1 connects, 2 and -2 connects etc.
+ * 0 means that it doesnt connect with anything.
+ * Assume pieces are rotated in the correct direction.
+ *
  * @author Adrian
  * @since 29 Apr 2018
  */

@@ -1,15 +1,16 @@
 package C358.intermediate;
 
-import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.nio.file.Files;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
+ * https://www.reddit.com/r/dailyprogrammer/comments/8ewq2e/20180425_challenge_358_intermediate_everyones_a/
+ *
+ * Your program should output the number of teams that can claim a "transitive" national championship. This is any team that beat the national champion, any team that beat one of those teams, any team that beat one of those teams, etc...
+ *
  * @author Adrian
  * @since 29 Apr 2018
  */
