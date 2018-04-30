@@ -29,24 +29,20 @@ public class Hard {
                 int prev = 0;
                 for (int i = ints.length; i > 0; i--) {
                     prev = Integer.parseInt(ints[i]);
-
-
-
+                    
+                    
                 }
             } else {
                 int num = Integer.parseInt(string.split("\n")[0]);
                 int denom = Integer.parseInt(string.split("\n")[2]);
-
                 String stuff = "[";
                 while (num != 1) {
                     int temp = num;
                     num = denom;
                     denom = temp;
-
                     int add = num / denom;
                     stuff += add + " ";
                     num = num % denom;
-
                 }
                 stuff += "]";
                 System.out.println(stuff);
